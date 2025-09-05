@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>adalene. - Premium Leather Goods</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="navbar">
+        <div class="nav-left">
+          <!-- Removed search button -->
+        </div>
+
+        <div class="logo">
+          <span>adalene.</span>
+        </div>
+
+        <div class="nav-right">
+          <div class="social-icons">
+            <a href="#" class="social-icon" aria-label="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-icon" aria-label="Pinterest">
+              <i class="fab fa-pinterest-p"></i>
+            </a>
+          </div>
+          <button class="login-btn">
+            <i class="fas fa-user"></i>
+            <span>Log In</span>
+          </button>
+          <button class="cart-btn">
+            <span>Cart (0)</span>
+          </button>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button
+          class="mobile-toggle"
+          id="mobileToggle"
+          aria-label="Toggle mobile menu"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+
+      <!-- Main Navigation -->
+      <nav class="main-nav" id="mainNav">
+        <div class="nav-links">
+          <a href="#shop">Shop All</a>
+          <a href="#story">Our Story</a>
+          <a href="#craft">Our Craft</a>
+          <a href="#gift">Gift Card</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="hero-image">
+        <img src="images/1.avif" alt="Premium leather handbag in brown color" />
+      </div>
+      <div class="hero-content">
+        <h1 class="hero-title">CUE THE COLOR</h1>
+        <button class="cta-button">Shop the collection</button>
+      </div>
+    </section>
+
+    <!-- Best Sellers Section -->
+    <section class="best-sellers" id="shop">
+      <h2 class="section-title">BEST SELLERS</h2>
+
+      <div class="products-container">
+        <div class="products-wrapper">
+          <div class="products-grid">
+            <div class="product-card">
+              <div class="best-seller-badge">Best Seller</div>
+              <div class="product-image">
+                <img src="images/2.avif" alt="Pink leather tote bag" />
+              </div>
+              <div class="product-details">
+                <h4>I'm a product</h4>
+                <p class="price">$220.00</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="best-seller-badge">Best Seller</div>
+              <div class="product-image">
+                <img src="images/3.avif" alt="Brown leather bucket bag" />
+              </div>
+              <div class="product-details">
+                <h4>I'm a product</h4>
+                <p class="price">$220.00</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="best-seller-badge">Best Seller</div>
+              <div class="product-image">
+                <img src="images/4.avif" alt="Green leather handbag" />
+              </div>
+              <div class="product-details">
+                <h4>I'm a product</h4>
+                <p class="price">$300.00</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="best-seller-badge">Best Seller</div>
+              <div class="product-image">
+                <img src="images/5.avif" alt="Orange leather crossbody bag" />
+              </div>
+              <div class="product-details">
+                <h4>I'm a product</h4>
+                <p class="price">$150.00</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="best-seller-badge">Best Seller</div>
+              <div class="product-image">
+                <img src="images/6.avif" alt="Burgundy leather satchel" />
+              </div>
+              <div class="product-details">
+                <h4>I'm a product</h4>
+                <p class="price">$280.00</p>
+              </div>
+            </div>
+
+            <div class="product-card">
+              <div class="best-seller-badge">Best Seller</div>
+              <div class="product-image">
+                <img src="images/7.avif" alt="Black leather clutch" />
+              </div>
+              <div class="product-details">
+                <h4>I'm a product</h4>
+                <p class="price">$120.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Product Showcases -->
+    <section class="product-showcases">
+      <!-- Mini Leather Goods -->
+      <div class="showcase-item">
+        <div class="showcase-image">
+          <img src="images/9.avif" alt="Mini leather wallet showcase" />
+        </div>
+        <div class="showcase-content">
+          <h3>MINI LEATHER GOODS</h3>
+          <div class="product-card mini-product">
+            <div class="product-image">
+              <img src="images/8.webp" alt="Leather wallet" />
+            </div>
+            <div class="product-details">
+              <h4>I'm a product</h4>
+              <p class="price">$100.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Leather Belts -->
+      <div class="showcase-item reverse">
+        <div class="showcase-content">
+          <h3>LEATHER BELTS</h3>
+          <div class="product-card mini-product">
+            <div class="product-image">
+              <img src="images/11.webp" alt="Leather belt" />
+            </div>
+            <div class="product-details">
+              <h4>I'm a product</h4>
+              <p class="price">$50.00</p>
+            </div>
+          </div>
+        </div>
+        <div class="showcase-image">
+          <img src="images/10.avif" alt="Leather belt on model" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="brand-story" id="story">
+      <div class="story-grid">
+        <div class="story-item" id="craft">
+          <div class="story-image">
+            <img
+              src="images/12.avif"
+              alt="Leather craftsmanship tools and materials"
+            />
+          </div>
+          <div class="story-content">
+            <p class="story-subtitle">Family Owned</p>
+            <h3>BRAND</h3>
+            <a href="#" class="story-link">Read our story</a>
+          </div>
+        </div>
+
+        <div class="story-item">
+          <div class="story-image">
+            <img
+              src="images/13.avif"
+              alt="Artisan hand crafting leather goods"
+            />
+          </div>
+          <div class="story-content">
+            <p class="story-subtitle">Hand Crafted</p>
+            <h3>PRODUCTS</h3>
+            <a href="#" class="story-link">About our leather</a>
+          </div>
+        </div>
+
+        <div class="story-item">
+          <div class="story-image">
+            <img src="images/14.avif" alt="Made in USA leather goods" />
+          </div>
+          <div class="story-content">
+            <p class="story-subtitle">Created in the</p>
+            <h3>USA</h3>
+            <a href="#" class="story-link">Learn our process</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram-section">
+      <div class="instagram-header">
+        <h2>FOLLOW</h2>
+        <h3>ADALENE ON INSTAGRAM</h3>
+        <a href="#" class="instagram-handle">@adaleneshop</a>
+      </div>
+
+      <div class="instagram-container">
+        <div class="instagram-wrapper">
+          <div class="instagram-grid">
+            <div class="instagram-item">
+              <img
+                src="images/15.jpg"
+                alt="Instagram post showing leather handbag"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/16.jpg"
+                alt="Instagram post showing leather crafting"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/17.jpg"
+                alt="Instagram post showing autumn leaves"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/18.jpg"
+                alt="Instagram post showing model with handbag"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/19.jpg"
+                alt="Instagram post showing leather goods collection"
+              />
+            </div>
+            <div class="instagram-item">
+              <img
+                src="images/20.jpg"
+                alt="Instagram post showing leather accessories"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Badges -->
+    <section class="trust-badges">
+      <div class="trust-container">
+        <div class="trust-item">
+          <h4>Worldwide shipping</h4>
+        </div>
+        <div class="trust-item">
+          <h4>Easy 30 day returns</h4>
+        </div>
+        <div class="trust-item">
+          <h4>12 month warranty</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+      <div class="footer-container">
+        <div class="footer-section brand-section">
+          <div class="footer-logo">adalene.</div>
+        </div>
+
+        <div class="footer-section">
+          <ul class="footer-links">
+            <li><a href="#shop">Shop All</a></li>
+            <li><a href="#story">Our Story</a></li>
+            <li><a href="#craft">Our Craft</a></li>
+            <li><a href="#gift" id="gift">Gift Card</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <ul class="footer-links">
+            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#shipping">Shipping & Returns</a></li>
+            <li><a href="#policy">Store Policy</a></li>
+            <li><a href="#payment">Payment Methods</a></li>
+            <li><a href="#stockists">Stockists</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <ul class="footer-links social-links">
+            <li><a href="#facebook">Facebook</a></li>
+            <li><a href="#instagram">Instagram</a></li>
+            <li><a href="#twitter">Twitter</a></li>
+            <li><a href="#pinterest">Pinterest</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section newsletter-section">
+          <h4>JOIN US!</h4>
+          <form class="newsletter-form">
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-group checkbox-group">
+              <input type="checkbox" id="subscribe" name="subscribe" required />
+              <label for="subscribe"
+                >Yes, subscribe me to your newsletter. *</label
+              >
+            </div>
+            <button type="submit" class="newsletter-btn">Send</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
